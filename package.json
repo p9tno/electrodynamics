@@ -1,7 +1,7 @@
 {
     "name": "app",
     "version": "1.0.0",
-    "description": "Laboratory work in physics, mechanics",
+    "description": "Laboratory work in physics, electrodynamics",
     "main": "main.js",
     "license": "MIT",
     "devDependencies": {
@@ -17,7 +17,7 @@
 
     "build": {
         "appId": "com.labApp.app",
-        "productName": "labApp",
+        "productName": "labAppElectrodynamics",
         "copyright": "© 2024",
 
         "mac": {
