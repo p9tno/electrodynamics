@@ -66,6 +66,30 @@ $(document).ready(function() {
             autoplay: false, // Optional
             name: "lab8",
         })
+        let lab9 = bodymovin.loadAnimation({
+            container: document.getElementById('lab9'), // Required
+            path: path + 'lab9.json', // Required
+            renderer: 'svg', // Required
+            loop: false, // Optional
+            autoplay: false, // Optional
+            name: "lab9",
+        })
+        let lab10 = bodymovin.loadAnimation({
+            container: document.getElementById('lab10'), // Required
+            path: path + 'lab10.json', // Required
+            renderer: 'svg', // Required
+            loop: false, // Optional
+            autoplay: false, // Optional
+            name: "lab10",
+        })
+        let lab11 = bodymovin.loadAnimation({
+            container: document.getElementById('lab11'), // Required
+            path: path + 'lab11.json', // Required
+            renderer: 'svg', // Required
+            loop: false, // Optional
+            autoplay: false, // Optional
+            name: "lab11",
+        })
     }
     initLabImage();
 })
