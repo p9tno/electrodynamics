@@ -66,6 +66,14 @@ $(document).ready(function() {
             autoplay: false, // Optional
             name: "lab8",
         })
+        let lab9 = bodymovin.loadAnimation({
+            container: document.getElementById('lab9'), // Required
+            path: path + 'lab9.json', // Required
+            renderer: 'svg', // Required
+            loop: false, // Optional
+            autoplay: false, // Optional
+            name: "lab9",
+        })
     }
     initLabImage();
 })
