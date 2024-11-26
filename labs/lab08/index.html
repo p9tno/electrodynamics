@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>MAIN_TITLE</title>
+    <title>Изучение параллельного соединения проводников</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" />
   </head>
 
@@ -16,7 +16,7 @@
           <div class="laboratory__container">
 
             <div class="laboratory__header"><a class="laboratory__back" href="../../index.html"><i class="icon_arrow_circle"></i><span>Лабораторные работы по физике</span></a>
-              <div class="laboratory__subject"><span>1. MAIN_TITLE</span></div>
+              <div class="laboratory__subject"><span>8. Изучение параллельного соединения проводников</span></div>
               <div class="laboratory__step"><span>Страница </span><span class="laboratory__step_current">1</span><span> / </span><span class="laboratory__step_total">17</span></div>
             </div>
 
@@ -24,8 +24,8 @@
             <div class="laboratory__main">
               <div class="laboratory__page active" data-p="">
                 <div class="laboratory__wrap">
-                  <div class="laboratory__label"><span>ЛАБОРАТОРНАЯ РАБОТА N</span></div>
-                  <div class="laboratory__title"><span>MAIN_TITLE</span></div>
+                  <div class="laboratory__label"><span>ЛАБОРАТОРНАЯ РАБОТА N8</span></div>
+                  <div class="laboratory__title"><span>Изучение параллельного соединения проводников</span></div>
                 </div>
               </div>
 
@@ -33,7 +33,7 @@
               <div class="laboratory__page" data-p="">
                 <div class="laboratory__wrap">
                   <div class="laboratory__desc"><span>ЦЕЛЬ РАБОТЫ</span></div>
-                  <div class="laboratory__title"><span>TARGET_OF_THE_WORK</span></div>
+                  <div class="laboratory__title"><span>Рассмотреть схему, состоящую из двух резисторов, включенных параллельно по отношению к источнику питания, наблюдать работу такой цепи и определить правила расчета ее полного сопротивления</span></div>
                 </div>
               </div>
               <!-- end lab page -->
@@ -42,10 +42,8 @@
               <div class="laboratory__page" data-p="">
                 <div class="laboratory__row">
                   <div class="laboratory__col">
-                    <div class="laboratory__desc"><span>ОБОРУДОВАНИЕ</span></div>
-                    <ul>
-                      <li><span>LIST_ITEM</span></li>
-                    </ul>
+                    <div class="laboratory__subtitle"><span>ПОДГОТОВКА К РАБОТЕ</span></div>
+                    <p>Соберите электрическую цепь.</p>
                   </div>
                   <div class="laboratory__col">
                     <div class="laboratory__preview">
@@ -58,21 +56,17 @@
 
               <!-- start lab page -->
               <div class="laboratory__page" data-p="">
-                <div class="laboratory__content">
-                  <div class="laboratory__subtitle"><span>Краткое описание</span></div>
-                  <p>TEXT</p>
-                  <div class="center">TEXT_CENTER</div>
-                </div>
-              </div>
-              <!-- end lab page -->
-
-              <!-- start lab page -->
-              <div class="laboratory__page" data-p="">
                 <div class="laboratory__row">
                   <div class="laboratory__col">
                     <div class="laboratory__content">
                       <div class="laboratory__subtitle"><span>Порядок выполнения</span></div>
-                      <p>TEXT</p>
+                      <p>Замкните ключ К. Измерьте напряжение Uизм на резисторах вольтметром PV и сразу же разомкните ключ К.</p>
+                      <p>Рассчитайте токи через резисторы помня, что ток через каждый параллельно включенный резистор определяется напряжением на нем и сопротивлением этого резистора:</p>
+                      <div class="center"><b>I3 = U<sub>ип</sub>: R3 = U<sub>изм</sub>/10 Ом,</b></div>
+                      <p></p>
+                      <div class="center"><b>I2 = U<sub>ип</sub>: R2 = U<sub>изм</sub>/8,2 Ом.</b></div>
+                      <p>Ток IΣ от источника питания ИП должен быть равен сумме полученных токов:</p>
+                      <div class="center"><b>IΣ = I<sub>3</sub>+I<sub>2</sub> = (U<sub>изм</sub>/R3) + (U<sub>изм</sub>/R2)</b></div>
                     </div>
                   </div>
                   <div class="laboratory__col">
@@ -86,10 +80,43 @@
 
               <!-- start lab page -->
               <div class="laboratory__page" data-p="">
-                <div class="laboratory__content">
-                  <div class="laboratory__subtitle"><span>Порядок выполнения</span></div>
-                  <p>TEXT</p>
-                  <div class="center">TEXT_CENTER</div>
+                <div class="laboratory__row">
+                  <div class="laboratory__col">
+                    <div class="laboratory__content">
+                      <div class="laboratory__subtitle"><span>Порядок выполнения</span></div>
+                      <p>Замкните ключ К и быстро измерьте ток от источника питания ИП, используя амперметр с пределом измерения 3 А.</p>
+                      <p>Этот ток представляет собой сумму токов IΣ, протекающих через резисторы.</p>
+                      <p>Рассчитайте полное сопротивление двух параллельно включенных резисторов. Для этого перепишите предыдущее уравнение через приложенное к резисторам напряжение и их сопротивления:</p>
+                      <div class="center"><b>U<sub>ип</sub> / RΣ = (U<sub>ип</sub> / R3) + (U<sub>ип</sub> / R2).</b></div>
+                    </div>
+                  </div>
+                  <div class="laboratory__col">
+                    <div class="laboratory__preview">
+                      <div class="preview" id="lab3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end lab page -->
+
+              <!-- start lab page -->
+              <div class="laboratory__page" data-p="">
+                <div class="laboratory__row">
+                  <div class="laboratory__col">
+                    <div class="laboratory__content">
+                      <div class="laboratory__subtitle"><span>Порядок выполнения</span></div>
+                      <p>Сократив на одинаковый параметр Uип все члены уравнения, получим формулу для вычисления полного сопротивления параллельно включенных резисторов:</p>
+                      <div class="center"><b>1 / RΣ = 1 / R3 + 1 / R2.</b></div>
+                      <p>Преобразовав эту формулу получим удобный ее вид:</p>
+                      <div class="center"><b>RΣ = (R3ꞏR2) / (R3 + R2).</b></div>
+                      <p>Эта формула позволяет рассчитать полное сопротивление двух параллельно включенных резисторов.</p>
+                    </div>
+                  </div>
+                  <div class="laboratory__col">
+                    <div class="laboratory__preview">
+                      <div class="preview" id="lab4"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- end lab page -->
@@ -97,17 +124,8 @@
               <!-- start lab page -->
               <div class="laboratory__page" data-p="">
                 <div class="laboratory__content">
-                  <div class="laboratory__subtitle"><span>Порядок выполнения</span></div>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <th>ITEM_BOLD</th>
-                      </tr>
-                      <tr>
-                        <td>ITEM</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="laboratory__subtitle"><span>ВЫВОД</span></div>
+                  <p>Полное сопротивление двух параллельно включенных резисторов равно произведению сопротивлений этих резисторов, деленному на их сумму.</p>
                 </div>
               </div>
               <!-- end lab page -->
