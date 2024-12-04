@@ -568,6 +568,23 @@ body {
 .section {
   padding: 2em 0;
 }
+/* section__logo */
+.section__logo {
+  flex: none;
+  width: 3em;
+}
+@media (min-width: 768px) {
+  .section__logo {
+    width: 4em;
+  }
+}
+.section__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end section__logo */
 .section__title {
   display: flex;
   align-items: center;
